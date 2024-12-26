@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3c5a839a1bc4b4a8bfbcd46d081c72, type: 3}
+  m_Name: M1Garand
+  m_EditorClassIdentifier: 
+  model: {fileID: 4698201593948852689, guid: 185ce04d44da342739f0bef843698e6c, type: 3}
+  shootDamage: 10
+  shootRate: 2
+  reloadRate: 0
+  shootDist: 150
+  ammoCur: 5
+  ammoMax: 5
+  hitEffect: {fileID: 1301697207402410478, guid: 39f852c28f9c3fd45a427c24f3564ba7, type: 3}
+  shootSound:
+  - {fileID: 8300000, guid: af1d90381b06dfd40809816ffc88a531, type: 3}
+  shootSoundVol: 0.5
+  reloadSound:
+  - {fileID: 8300000, guid: 556f53913ad6da54b97ee931e218589b, type: 3}
+  reloadSoundVol: 0.5
+  weaponSprite: {fileID: -1249233754, guid: ba27a427e03893842b419e9d75e260fd, type: 3}
