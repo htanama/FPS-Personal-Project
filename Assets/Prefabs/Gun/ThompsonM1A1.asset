@@ -23,7 +23,6 @@ MonoBehaviour:
   shootSound:
   - {fileID: 8300000, guid: af1d90381b06dfd40809816ffc88a531, type: 3}
   shootSoundVol: 0.5
-  reloadSound:
-  - {fileID: 8300000, guid: af1d90381b06dfd40809816ffc88a531, type: 3}
+  reloadSound: {fileID: 8300000, guid: 556f53913ad6da54b97ee931e218589b, type: 3}
   reloadSoundVol: 0.5
   weaponSprite: {fileID: 1226001807, guid: ba27a427e03893842b419e9d75e260fd, type: 3}

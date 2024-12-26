@@ -30,7 +30,6 @@ public class playerController : MonoBehaviour, IDamage, IOpen
     [SerializeField] int ammo;
     [SerializeField] int reloadRate;
     //[SerializeField] GameObject bullet;
-    public Sprite newSprite;
     SpriteChanger spriteChanger;
     
 
@@ -65,14 +64,6 @@ public class playerController : MonoBehaviour, IDamage, IOpen
     {
         HPOrig = HP;
         updatePlayerUI();
-
-        spriteChanger = GetComponent<SpriteChanger>();
-        if (spriteChanger == null)
-        {
-            Debug.Log("displayWeapon is null");
-            spriteChanger.Initialize(newSprite);
-        }        
-         
 
         if (gunList.Count > 0)
             gamemanager.instance.ammoNumText.text = gunList[gunListPos].ammoCur.ToString();

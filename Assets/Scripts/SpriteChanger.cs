@@ -8,11 +8,11 @@ public class SpriteChanger : MonoBehaviour
 {
     public static SpriteChanger instance;
 
-    public Image uiImage;          // Assign the Image component in the Inspector
-    public Sprite displayWeapon;
-    public Sprite weapon1;         // Assign the "weapon1" sprite in the Inspector
-    public Sprite weapon2;         // Assign the "weapon2" sprite in the Inspector
-    public Sprite weapon3;         // Assign the "weapon3" sprite in the Inspector
+    [SerializeField] private Image uiImage;          // Assign the Image component in the Inspector
+    [SerializeField] private Sprite displayWeapon;
+    private Sprite weapon1;         // Assign the "weapon1" sprite in the Inspector
+    private Sprite weapon2;         // Assign the "weapon2" sprite in the Inspector
+    private Sprite weapon3;         // Assign the "weapon3" sprite in the Inspector
 
     private int currentWeapon = 1; // Tracks the current weapon (1, 2, 3)
 
